@@ -3,8 +3,8 @@ import os
 import csv
 
 # set file path to csv and text files
-csvpath = os.path.join("resources\election_data.csv")
-analysis = os.path.join("analysis","analysis.txt")
+csvpath = os.path.join("PyPoll\\resources\\election_data.csv")
+analysis = os.path.join("PyPoll\\analysis","analysis.txt")
 
 # set variables
 total_votes = 0
@@ -72,7 +72,10 @@ with open(analysis, "a") as txtfile:
     print(f"Total votes : {total_votes} \n")
 
     for candidate in candidate_vote:
+        votes = candidate_vote[candidate]
+        vote_percent = votes / total_votes * 100
+        vote_percent = round(vote_percent,3)
         print(f"{candidate} : {vote_percent}% ({(votes)})  \n")
-
+   
 
     print(f"Winner : {winner}")
