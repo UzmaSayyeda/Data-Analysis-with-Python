@@ -3,8 +3,8 @@ import csv
 import os
 
 # set file path to csv and txt files
-csvpath = os.path.join("resources\\budget_data.csv")
-analysis = os.path.join("analysis","analysis.txt")
+csvpath = os.path.join("PyBank\\resources\\budget_data.csv")
+analysis = os.path.join("PyBank\\analysis\\analysis.txt")
 
 
 # set variables
