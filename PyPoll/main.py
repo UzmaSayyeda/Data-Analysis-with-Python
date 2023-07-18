@@ -3,8 +3,8 @@ import os
 import csv
 
 # set file path to csv and text files
-csvpath = os.path.join("PyPoll\\resources\\election_data.csv")
-analysis = os.path.join("PyPoll\\analysis","analysis.txt")
+csvpath = os.path.join("resources\\election_data.csv")
+analysis = os.path.join("analysis\\analysis.txt")
 
 # set variables
 total_votes = 0
