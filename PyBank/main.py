@@ -60,13 +60,13 @@ with open(analysis,"a") as txtfile:
                   f"Total months : {(total_months)} \n" 
                   f"Total : ${total_amount} \n"
                   f"Average Change : ${avg} \n"
-                  f"Greatest Increase in Porfits: {greatest_increase[0]}, (${greatest_increase[1]}) \n"
-                  f"Greatest Decrease in Profits: {greatest_decrease[0]}, (${greatest_decrease[1]}) "
+                  f"Greatest Increase in Porfits: {greatest_increase[0]} (${greatest_increase[1]}) \n"
+                  f"Greatest Decrease in Profits: {greatest_decrease[0]} (${greatest_decrease[1]}) "
                   )
     
     #print results 
     print(f"Total months :{total_months} \n")
     print(f"Total: ${total_amount} \n")
     print(f"Average change : ${avg} \n")
-    print(f"Greatest Increase in Porfits: {greatest_increase[0]}, (${greatest_increase[1]}) \n")
-    print(f"Greatest Decrease in Profits: {greatest_decrease[0]}, (${greatest_decrease[1]})")
+    print(f"Greatest Increase in Porfits: {greatest_increase[0]} (${greatest_increase[1]}) \n")
+    print(f"Greatest Decrease in Profits: {greatest_decrease[0]} (${greatest_decrease[1]})")
